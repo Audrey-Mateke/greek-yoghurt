@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>YOGURT</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>
+            I LOVE YOGURT
+        </h1>
+        <H2>Especially greek yogurt</H2>
+        <img src="https://s3.amazonaws.com/shecodesio-development/uploads/files/000/000/002/original/yogurt.jpg?1627901702" class="yogurt-picture" alt="Yogurt" /> 
+    <p>Strained yogurt, Greek yogurt, yogurt cheese, sack yogurt, or kerned yogurt is yogurt that has been strained to remove most of its whey, resulting in a thicker consistency than normal, while still preserving the distinctive sour taste. Give it a try!</p>
+
+   <div>&#x1F4DA<a href="https://en.wikipedia.org/wiki/Fage">Read on wikipedia</a></div>
+   <br>
+<hr>
+<br>
+
+<button>order greek yogurt</button>
+
+<p>Coded by 👩‍💻 <a href="#"> Rumbidzai Mateke </a> with HTML, CSS and JavaScript</p>
+</div>
+<script>
+    function order() {
+    let quanty = prompt("How many cups would you like?");
+    let name = prompt("What is your first name?");
+    let email = prompt("What is your email?");
+
+    alert(
+      "Thanks " +
+        name +
+        "! We'll be in touch soon with more details. Feel free to contact us if you have any questions"
+    );
+  }
+
+  let button = document.querySelector("button");
+  button.addEventListener("click", order);
+</script>
+</body>
+</html>
